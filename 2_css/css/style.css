@@ -1,0 +1,59 @@
+body{
+    background-color: rgb(174, 174, 174);
+    font-family: sans-serif;
+}
+
+main{
+    width: 920px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px 30px;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+h2{
+    font-size: 14px;
+    font-style: italic;
+}
+
+img{
+    margin: 12px auto 0 ;
+    display: block;
+}
+
+figcaption{
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+}
+
+hr{
+    color: rgb(196, 196, 196);
+    
+}
+
+
+span{
+    font-weight: bolder;
+}
+
+.container_citacao{
+    background: rgb(189, 188, 188);
+    padding: 15px 35px;
+}
+
+.vender{
+    font-size: 28px;
+}
+
+.dexter{
+    font-style: italic;
+    font-size: 12px;
+}
+
+li{
+    margin: 12px 0;
+}
