@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(254, 212, 254);
+    margin: 0;
+}
+
+.container_titulo{
+    background-color: blueviolet;
+    height: 150px;
+    position: relative;
+}
+
+.titulo{
+    margin: 0;
+    padding: 15px;
+    color: white;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.container_formulario{
+    background-color: white;
+    width: 720px;
+    margin: 0 auto;
+    position: absolute;
+    top: 125px;
+    left: 50%;
+    transform: translateX(-50%);
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);    
+    padding: 0 15px;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color:  rgb(148, 55, 236);
+    border-bottom: 1px solid rgb(148, 55, 236);
+    font-size: 18px;
+}
+
+label, input, textarea{
+    display: block;
+}
