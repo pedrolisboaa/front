@@ -26,14 +26,54 @@
             <label for="preco">Preço: <span>*</span></label>
             <input id="preco" type="number" min="0" placeholder="Defina o preço">
 
-            <label for="descricacao">Decrição <span>*</span></label>
+            <label for="descricacao">Decrição<span>*</span></label>
             <textarea name="descricacao" id="descricacao" placeholder="Descrição do veículo."></textarea>
 
-            <label for="marca">Marca <span>*</span></label>
-            <input id="marca" type="text" placeholder="Marca do ve">
+            <label for="marca">Marca<span>*</span></label>
+            <input id="marca" type="text" placeholder="Marca do veículo">
+
+            <label for="km">Kilometragem<span>*</span></label>
+            <input id="km" type="number" placeholder="Kilometragem do veículo" min="0">
+
+            <label for="data">Data de Compra<span>*</span></label>
+            <input type="date" id="data">
+
+            <div>
+                <input type="radio" id="cambio_manual" name="cambio" value="manual">
+                <label for="cambio_manual">Manual</label><br>
+    
+                <input type="radio" id="cambio_automatico" name="cambio" value="automatico">
+                <label for="cambio_automatico">Automático</label><br>
+            </div >
+            
 
 
+            <div>
+                <p>Opcionais</p>
+                <input type="checkbox" id="ar" name="ar" value="ar">
+                <label for="ar">Ar-condionado</label>
 
+                <input type="checkbox" id="som" name="som" value="som">
+                <label for="som">Sistema de som</label><br>
+                
+                <input type="checkbox" id="gps" name="gps" value="gps">
+                <label for="gps">GPS</label><br>
+                
+                <input type="checkbox" id="bancos_couro" name="bancos_couro" value="bancos_couro">
+                <label for="bancos_couro">Bancos de couro</label><br>
+                
+                <input type="checkbox" id="camera_re" name="camera_re" value="camera_re">
+                <label for="camera_re">Câmera de ré</label><br>
+                
+                <input type="checkbox" id="teto_solar" name="teto_solar" value="teto_solar">
+                <label for="teto_solar">Teto solar</label><br>
+            </div>
+
+            <label for="imagem">Fotos do Carro: <span>*</span></label>
+            <input type="file" name="imagem" id="imagem">
+
+
+            <button type="submit">Cadastrar</button>
         </form>
     </div>
     
