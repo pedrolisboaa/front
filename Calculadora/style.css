@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(241, 229, 215);
+    font-family: Helvetica, sans-serif;
+}
+h1, p{
+    text-align: center;
+}
+
+form{
+    background-color: white;
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+}

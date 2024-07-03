@@ -1,0 +1,71 @@
+/* style.css */
+
+body {
+    font-family: 'Kanit', sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+}
+
+.titulo {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    color: #333333;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+    color: #666666;
+}
+
+input[type="text"], input[type="number"] {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333333;
+}
+
+button {
+    width: calc(50% - 10px);
+    padding: 10px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffffff;
+}
+
+#btn-calcular {
+    background-color: #4CAF50; /* Verde */
+}
+
+#btn-calcular:hover {
+    background-color: #45a049;
+}
+
+#btn-limpar {
+    background-color: #f44336; /* Vermelho */
+}
+
+#btn-limpar:hover {
+    background-color: #e53935;
+}

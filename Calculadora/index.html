@@ -5,22 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabuada</title>
     <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <h1>Digite o número e confirme para gerar uma tabuada</h1>
 
     <form action="">
-        <label for="numero">Tabuada do: </label>
-        <input type="number" name="numero" id="numero">
-
-        <label for="multiplicador">Multiplicar até:</label>
-        <input type="number" name="multiplicador" id="multiplicador">
-
+        <div>
+            <label for="numero">Tabuada do: </label>
+            <input type="number" name="numero" id="numero">
+        </div>
+        <div>
+            <label for="multiplicador">Multiplicar até:</label>
+            <input type="number" name="multiplicador" id="multiplicador" value="10">
+        </div>
+        
         <button type="submit">Calcular</button>
     </form>
 
-    <h1>Tabuada do número:</h1>
+    <h1>Tabuada do número: <span></span></h1>
     <div>
         <p id="some">Informe um número para calcular uma tabuada....</p>
     </div>
